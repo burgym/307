@@ -10,5 +10,5 @@ la localisation de ces restaurant sur une arte.
 
 J'utilise deux API pour ce projet.
 
-La première pour [les menus et les informatiosn des retaurants](igdev116/free-food-menus-api: Free API 🥪 (github.com))
+La première pour [les menus et les informatiosn des retaurants](https://github.com/igdev116/free-food-menus-api)
 Et la deuxième pour afficher la [localisation du restaurant sur une carte](https://www.openstreetmap.org/)
