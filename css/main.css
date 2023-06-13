@@ -1,0 +1,161 @@
+/*
+  But :  css de mon projet 
+  Auteur : Malori Burgy
+  Date :   05.06.23 / V1.0
+*/
+body {
+  background-color: rgb(227, 238, 227);
+}
+
+.vertical-menu {
+  margin-top: 1cm;
+  margin-bottom: 2cm;
+}
+
+.vertical-menu a {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 26px;
+  text-decoration: none;
+  border-radius: 2%;
+}
+
+.vertical-menu a:hover {
+  background-color: #bdd1c8;
+  font-weight: bold;
+}
+
+.vertical-menu a.active {
+  background-color: #bdd1c8;
+  font-weight: bold;
+  color: black;
+}
+
+h1 {
+  margin-top: 2cm;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-meal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Centrage horizontal des carrés */
+  margin-top: 0.2cm;
+  /* Réduction de la marge supérieure des carrés */
+  font-weight: bold;
+}
+
+.food-square {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border: 1px solid rgb(218, 211, 211);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Exemple d'ombre */
+  background-color: white;
+}
+
+.food-square h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.food-square img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.food-square p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.food-square .image-not-available {
+  position: relative;
+}
+
+.food-square .image-not-available::after {
+  content: "Image non disponible";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #999;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  /* Marge gauche des carrés */
+}
+
+.description-popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #e4f7f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+  width: 250px;
+  text-align: justify;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Exemple d'ombre */
+}
+
+.food-square:hover .description-popup {
+  display: block;
+  width: 200px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.description-popup p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.description-popup p.notes {
+  font-weight: bold;
+}
+
+/* -------------------------pour la map------------------------------------*/
+
+#mapid {
+  margin-left: 1cm;
+  margin-bottom: 3cm;
+  width: 96%;
+  height: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #9e9999;
+}
+
+
+
+
