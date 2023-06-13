@@ -1,9 +1,9 @@
 
 ## Description
 
-Ce projet est une application web qui utilise des api pour 
+Ce projet est une application web qui utilise des API pour 
 afficher et trier des menus de restaurants. Elle va aussi fournir
-la localisation de ces restaurant sur une arte.
+la localisation de ces restaurants sur une carte.
 
 ## API
 
@@ -22,6 +22,6 @@ Mon application web fonctionne de la manière suivante:
 
 -Pour afficher la carte qui donne les coordonnées des restaurants, cliquez sur "map" dans le menu.
 
--Pour revenir à la liste des plats, utilisez le menu de navigation de lâpplication.
+-Pour revenir à la liste des plats, utilisez le menu de navigation de l'application.
 
 Note : Assurez-vous d'avoir une connexion Internet active pour afficher correctement la carte des restaurants, car elle utilise les coordonnées géographiques des restaurants pour les afficher sur la carte.
