@@ -12,7 +12,7 @@ J'utilise deux API pour ce projet.
 La première pour [les menus et les informations des retaurants](https://github.com/igdev116/free-food-menus-api)
 Et la deuxième pour afficher la [localisation du restaurant sur une carte](https://www.openstreetmap.org/)
 
-##Fonctionement
+## Fonctionement
 
 Mon application web fonctionne de la manière suivante:
 
