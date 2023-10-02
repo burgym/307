@@ -1,4 +1,11 @@
 
+## MISE A JOUR
+
+L'API utilisé pour ce projet n'est plus fonctionnelle. 
+Le code à été modifié pour répondre aux exigences du modèle MVC mais n'a pas pu être testé.
+
+
+
 ## Description
 
 Ce projet est une application web qui utilise des API pour 
@@ -25,3 +32,8 @@ Mon application web fonctionne de la manière suivante:
 -Pour revenir à la liste des plats, utilisez le menu de navigation de l'application.
 
 Note : Assurez-vous d'avoir une connexion Internet active pour afficher correctement la carte des restaurants, car elle utilise les coordonnées géographiques des restaurants pour les afficher sur la carte.
+
+
+
+
+
