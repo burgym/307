@@ -1,6 +1,6 @@
 /*
  * @author Burgy Malori
- * @version 1.0 / 13.06.2023
+ * @version 2.0 / 02.10.2023
  */
 
 class BurgersCtrl {

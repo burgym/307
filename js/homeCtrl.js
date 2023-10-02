@@ -1,6 +1,6 @@
 /*
  * @author Burgy Malori
- * @version 1.0 / 12.06.23
+ * @version 2.0 / 02.10.2023
  */
 
 $().ready(function () {
