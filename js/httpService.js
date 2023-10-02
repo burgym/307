@@ -10,7 +10,7 @@ class HttpService {
     const self = this;
 
     $.ajax({
-      url: "https://free-food-menus-api-production.up.railway.app/best-foods",
+      url: "https://free-food-menus-api-production.up.railway/best-foods",
       type: "GET",
       success: function (data) {
         var container = document.getElementById("data");

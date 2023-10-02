@@ -4,7 +4,7 @@
  */
 
 class viewLoader {
-  constructor() {}
+  constructor() { }
 
   viewLoader(view, callback) {
     $("#view").load("views/" + view + ".html", function () {

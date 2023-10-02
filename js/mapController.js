@@ -7,32 +7,15 @@ class MapCtrl {
   constructor() {
     this.afficherCarte();
 
-    $("#all").click(() => {
-      indexCtrl.loadHome();
-    });
-    $("#burger").click(() => {
-      indexCtrl.loadBurger();
-    });
-    $("#pizza").click(() => {
-      indexCtrl.loadPizza();
-    });
-    $("#drink").click(() => {
-      indexCtrl.loadDrinks();
-    });
-    $("#dessert").click(() => {
-      indexCtrl.loadDessert();
-    });
-    $("#map").click(() => {
-      indexCtrl.loadMap();
-    });
+
+
   }
 
   //cette méthode va me être appelé par mon bouton "Vos prochaines destinations" et va afficher la map avec des points.
 
   afficherCarte() {
     const RedMarkerIcon = L.icon({
-      iconUrl:
-        "https://307.burgym.emf-informatique.ch/Projet/img/redmarkericon.png",
+      iconUrl: "https://307.burgym.emf-informatique.ch/Projet/img/redmarkericon.png",
       iconSize: [18, 30],
       iconAnchor: [9, 30],
       popupAnchor: [0, -20],
@@ -48,21 +31,19 @@ class MapCtrl {
 
     //Ceci va me permettre d'aller chercher mon fichier json et d'ajouter des points sur la map.
 
-    indexCtrl.readTextFile(
-      "https://307.burgym.emf-informatique.ch/Projet/json/restaurants.json",
-      function (text) {
-        var data = JSON.parse(text);
+    indexCtrl.readTextFile("https://307.burgym.emf-informatique.ch/Projet/json/restaurants.json", function (text) {
+      var data = JSON.parse(text);
 
-        data.forEach(function (element) {
-          console.log(element.coordonnees);
+      data.forEach(function (element) {
 
-          L.marker(element.coordonnees, { icon: RedMarkerIcon })
+        console.log(element.coordonnees);
 
-            .addTo(mapid)
+        L.marker(element.coordonnees, { icon: RedMarkerIcon })
 
-            .bindPopup(element.nom);
-        });
-      }
-    );
+          .addTo(mapid)
+
+          .bindPopup(element.nom);
+      });
+    });
   }
 }
